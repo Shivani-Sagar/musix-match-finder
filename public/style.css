@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Muli:ital@1&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow: hidden;
+  flex-direction: row;
+  font-family: Muli, sans-serif;
+  height: 90vh;
+}
+
+.container {
+  align-items: center;
+  padding:0;
+  max-width: none;
+}
+.navbar {
+  background-color: #8c99d2 !important;
+  color: white;
+  text-align: center;
+}
+h3 {
+  font-size: calc(1.3rem + 0.6vw);
+  justify-content: center;
+  width: 100%;
+}
